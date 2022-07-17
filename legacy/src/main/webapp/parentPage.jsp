@@ -37,7 +37,6 @@
 <h2>Parent Page</h2>
 <form id="parentForm" name="parentForm">
   <input type="text" id="parentInput" name="parentInput">
-  <input type="hidden" id="hiddenChildInput" name="hiddenChildInput">
   <input type="button" value="Go Child" onclick="openChildPage()">
 </form>
 </body>

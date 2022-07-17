@@ -7,9 +7,11 @@
       let form = document.getElementById('childForm');
 
       let parentPageOpener = window.opener;
-      parentPageOpener.document.getElementById('hiddenChildInput').value
+      // parentPageOpener.document.getElementById('hiddenChildInput').value
+      //   = form.childInput.value;
+      parentPageOpener.document.getElementById('parentInput').value
         = form.childInput.value;
-        parentPageOpener.setChildInput();
+        // parentPageOpener.setChildInput();
         window.close();
     }
   </script>
